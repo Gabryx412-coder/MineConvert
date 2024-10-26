@@ -1,0 +1,45 @@
+ Minecraft File Converter
+
+ Descrizione del Progetto
+Il progetto **Minecraft File Converter** è uno strumento dedicato alla conversione di file di costruzioni Minecraft tra i formati .schem e .schematic. Questo script è progettato per semplificare la gestione e la manipolazione dei file di costruzione, consentendo agli utenti di convertire facilmente i formati di file utilizzati da diverse versioni di Minecraft. 
+L'applicazione è dotata di un'interfaccia grafica utente (GUI) che rende l'interazione semplice e intuitiva, permettendo anche a chi non ha esperienza con il codice di utilizzare il programma senza difficoltà.
+
+ Funzionalità Principali
+
+1. **Conversione dei File**:
+    - **Da .schem a .schematic**: Legge i file .schem e li converte nel formato .schematic, mantenendo intatti tutti i dati cruciali come blocchi, entità e metadati (ad esempio, posizione e orientamento).
+    - **Da .schematic a .schem**: Esegue la conversione inversa, trasformando i file .schematic in file .schem, assicurando che tutte le informazioni necessarie siano conservate in modo accurato.
+
+2. **Interfaccia Grafica**:
+    - **User-Friendly**: L'interfaccia è progettata per essere semplice e accessibile, consentendo agli utenti di specificare facilmente le directory di input e output senza dover interagire con il terminale.
+    - **Selezione dei File**: Gli utenti possono navigare tra le directory e selezionare i file tramite dialoghi di esplorazione, riducendo la possibilità di errori di percorso.
+
+3. **Barra di Progresso**:
+    - **Feedback Visivo**: Durante il processo di conversione, una barra di progresso mostra in tempo reale l'avanzamento dell'operazione, informando gli utenti sul completamento delle attività in corso.
+
+4. **Gestione degli Errori**:
+    - **Messaggi Chiari e Dettagliati**: Il sistema di gestione degli errori è progettato per fornire feedback informativo, avvisando gli utenti di problemi come file non trovati, formati non validi o errori di lettura/scrittura.
+    - **Suggerimenti Utili**: In caso di errore, vengono forniti suggerimenti per aiutare gli utenti a risolvere i problemi, migliorando l'esperienza utente complessiva.
+
+5. **Logging e Modalità Verbose**:
+    - **Monitoraggio Dettagliato**: Include una modalità di logging che, se abilitata, fornisce informazioni dettagliate sul progresso delle operazioni, rendendo più facile il debug e il monitoraggio delle conversioni.
+
+ Utilizzo
+Per utilizzare il **Minecraft File Converter**:
+1. **Esecuzione dello Script**: Avvia il programma Python.
+2. **Selezione Directory di Input**: Scegli la directory contenente i file di costruzione che desideri convertire.
+3. **Selezione Directory di Output**: Scegli la directory in cui desideri salvare i file convertiti.
+4. **Scelta del Tipo di Conversione**: Seleziona il tipo di conversione desiderato tra .schem e .schematic.
+5. **Avvio della Conversione**: Clicca sul pulsante "Convert" per avviare il processo di conversione. Puoi monitorare il progresso attraverso la barra di avanzamento.
+
+ Requisiti
+- **Python 3.x**: Assicurati di avere installato una versione recente di Python 3.x sul tuo sistema.
+- **Librerie Necessarie**: Non sono necessarie librerie aggiuntive; il progetto utilizza esclusivamente librerie standard di Python.
+
+ Esempi di Comando
+Essendo un'applicazione GUI, non ci sono comandi da eseguire tramite terminale. L'interfaccia grafica gestisce tutte le operazioni necessarie.
+
+ Conclusione
+Il **Minecraft File Converter** rappresenta una soluzione efficace e semplice per la conversione di file di costruzione Minecraft. Grazie alla sua interfaccia grafica intuitiva e alla gestione avanzata degli errori, rende l'operazione di conversione accessibile anche a utenti senza competenze tecniche. Questo strumento è utile per chi desidera trasferire progetti tra diverse versioni di Minecraft senza perdere dati.
+
+Per ulteriori domande o suggerimenti, non esitare a contattarmi direttamente. Spero che tu possa trovare questo strumento utile per le tue esigenze di creazione in Minecraft!
